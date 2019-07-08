@@ -1,5 +1,5 @@
 Django==2.2.3
-djangorestframework==3.8.2
+djangorestframework==3.9.1
 PyPDF2==1.26.0
 python-pdf==0.30
 pytz==2019.1

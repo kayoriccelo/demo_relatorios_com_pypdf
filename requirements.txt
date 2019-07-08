@@ -1,0 +1,6 @@
+Django==2.2.3
+djangorestframework==3.8.2
+PyPDF2==1.26.0
+python-pdf==0.30
+pytz==2019.1
+sqlparse==0.3.0

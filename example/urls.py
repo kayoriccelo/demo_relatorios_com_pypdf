@@ -1,6 +1,6 @@
 from django.conf.urls import url
-from .views import ExampleViewSet
+from .views import ExampleReportViewSet
 
 urlpatterns = [
-    url(r'^example-pdf/', ExampleViewSet.as_view(), name='example-pdf'),
+    url(r'^example-pdf/', ExampleReportViewSet.as_view(), name='example-pdf'),
 ]

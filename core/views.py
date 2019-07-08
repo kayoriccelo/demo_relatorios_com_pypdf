@@ -3,7 +3,7 @@ from django.http.response import HttpResponse
 from django.template.loader import render_to_string
 from django.views.generic import DetailView
 from rest_framework.generics import GenericAPIView
-from rest_framework import viewsets, filters, serializers
+from rest_framework import filters
 from django_filters.rest_framework import DjangoFilterBackend
 
 

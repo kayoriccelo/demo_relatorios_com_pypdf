@@ -5,13 +5,13 @@ from rest_framework import serializers
 class ExampleReportSerializer(serializers.Serializer):
     def to_representation(self, instance):
 
-        departamento_dict = OrderedDict()
-        departamento_dict['codigo'] = instance.codigo
-        departamento_dict['descricao'] = instance.descricao
-        departamento_dict['conteudo'] = instance.conteudo
-        departamento_dict['valor_1'] = instance.valor_1
-        departamento_dict['valor_2'] = instance.valor_2
-        departamento_dict['valor_3'] = instance.valor_3
-        departamento_dict['valor_4'] = instance.valor_4
+        example_dict = OrderedDict()
+        example_dict['code'] = instance.code
+        example_dict['description'] = instance.description
+        example_dict['content'] = instance.content
+        example_dict['value_1'] = instance.value_1
+        example_dict['value_2'] = instance.value_2
+        example_dict['value_3'] = instance.value_3
+        example_dict['value_4'] = instance.value_4
 
-        return departamento_dict
+        return example_dict

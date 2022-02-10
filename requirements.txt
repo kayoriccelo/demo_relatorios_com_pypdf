@@ -1,4 +1,4 @@
-Django==2.2.3
+Django==2.2.27
 djangorestframework==3.9.1
 PyPDF2==1.26.0
 python-pdf==0.30
